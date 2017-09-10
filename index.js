@@ -27,3 +27,9 @@ function appendKitten(name) {
   newArr.push(name)
   return newArr
 }
+
+function appendKitten(name) {
+  var newArr = kittens.slice()
+  newArr.unshift(name)
+  return newArr
+}
