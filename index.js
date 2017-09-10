@@ -30,6 +30,6 @@ function appendKitten(name) {
 
 function appendKitten(name) {
   var newArr = kittens.slice()
-  newArr.unshift(name)
+  newArr.push(name)
   return newArr
 }
