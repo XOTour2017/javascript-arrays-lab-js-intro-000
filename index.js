@@ -28,8 +28,8 @@ function appendKitten(name) {
   return newArr
 }
 
-function appendKitten(name) {
+function prependKitten(name) {
   var newArr = kittens.slice()
-  newArr.push(name)
+  newArr.unshift(name)
   return newArr
 }
